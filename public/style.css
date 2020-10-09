@@ -45,3 +45,26 @@ nav>.menu{
 .avataar img{
     height: 150px;
 }
+/* portfolio */
+.section_port{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+}
+.portfolio_images img{
+    border-radius: 5px;
+    width: 31%;
+    margin: 5px;
+}
+h2{
+    text-align: center;
+    color: darkslategray;
+}
