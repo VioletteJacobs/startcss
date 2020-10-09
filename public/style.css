@@ -1,0 +1,47 @@
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    margin: 0%;
+}
+
+header>nav{
+    padding:0% 22%;
+    background-color: darkslategrey;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+nav>.titre{
+    display: flex;
+    /* justify-content: flex-end; */
+}
+nav>.menu{
+    display:flex;
+    /* justify-content: flex-end; */}
+.menu>ul{
+    display: flex;
+    /* justify-content: space-around; */ */
+    /* padding: 3% 0%;
+    padding-right:30px;
+    width: 350px; */
+}
+.menu li{
+    margin-right: 30px;
+}
+/* div avataar */
+.avataar{
+    background-color: firebrick;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.avataar img{
+    height: 150px;
+}
